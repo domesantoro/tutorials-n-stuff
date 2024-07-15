@@ -1,0 +1,79 @@
+body {
+    background-color: #ddd;
+}
+
+#container_floater {
+    left: 10%;
+    position: absolute;
+}
+
+#container {
+    width: calc(80vw);
+    height: calc(100vh);
+    background-color: #fff;
+}
+
+#header {
+    width: 96%;
+    left: 2%;
+    top: 5%;
+    position: relative;
+}
+
+#header_line {
+    border-bottom: solid 1pt black;
+}
+
+#header_line span {
+    font-size: 1.8em;
+    font-weight: bolder;
+}
+
+#header_sub_line, .topic_sub_line {
+    margin-top: 2px;
+}
+
+
+#header_sub_line span {
+    font-size: 1.1em;
+    font-style: italic;
+}
+
+.topic {
+    width: 96%;
+    left: 2%;
+    top: 5%;
+    position: relative;
+}
+
+.topic_line {
+    border-bottom: solid 1pt black;
+}
+
+.topic_line span {
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
+.topic_sub_line span {
+    font-style: italic;
+}
+
+#relationships_topic {
+    margin-top: 80px;
+}
+
+#relationships_tutorial_ita video {
+    width: 80%;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+#header_icons a {
+    float: right;
+    margin-right: 10px;
+}
+
+#header_icons a img {
+    
+}
